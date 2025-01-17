@@ -36,8 +36,10 @@ A one-to-one relationship exists to link the Query and FormData model together. 
 ### API Endpoints
 **CREATE**
 Create a new query by sending a POST request to `http://127.0.0.1:8080/queries` with a body containing title, description, status, and associated form data id.
+<br/>
 **UPDATE**
 Update an existing query by sending a PUT request to `http://127.0.0.1:8080/queries/{queryId}` to change status from OPEN -> RESOLVED.
+<br/>
 **DELETE**
 Delete a query by using the query id to send a DELETE request to `http://127.0.0.1:8080/queries/{queryId}`. 
 
