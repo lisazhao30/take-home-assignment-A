@@ -2,8 +2,8 @@
 
 ## Getting Started
 - copy the .env.example file into a .env file
-- `docker-compose build`
-- `docker-compose up`
+- `docker compose build`
+- `docker compose up`
 - `npm run migrate`
 - `npm run seed`
 - if you view your database, you should be able to see a populated form data table

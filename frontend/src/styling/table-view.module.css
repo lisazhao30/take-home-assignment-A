@@ -1,0 +1,12 @@
+.wrapper {
+  margin-top: 2vh;
+}
+
+.table {
+  width: 80vw;
+}
+
+.querystatus {
+  display: flex;
+  justify-content: center;
+}
